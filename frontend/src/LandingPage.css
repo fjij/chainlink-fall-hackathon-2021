@@ -1,0 +1,59 @@
+.LandingPage {
+  text-align: center;
+}
+
+.LandingPage-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.LandingPage-code {
+  background-color: #181a1f;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.LandingPage-button {
+  background-color: #fff;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+.LandingPage-button:visited {
+  color: #000;
+}
+
+.LandingPage-link {
+  color: #fff;
+}
+
+.LandingPage-spacer {
+  height: 15px;
+}
+
+.LandingPage-large-spacer {
+  height: 45px;
+}
+
+.LandingPage-header {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.LandingPage-title {
+  position: relative;
+  color: #fff;
+  font-size: 4em;
+  letter-spacing: 0.3em;
+}

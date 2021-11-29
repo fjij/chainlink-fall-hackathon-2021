@@ -1,0 +1,27 @@
+.NftGrid-container {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 200px 200px 200px;
+  min-width: 800px;
+  min-height: 600px;
+}
+
+.NftGrid-pagination-button {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+  width: 250px;
+  background-color: #000;
+  text-decoration: underline;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-width: 0px;
+  font-weight: 700;
+  font-size: calc(10px + 2vmin);
+}
+
+.NftGrid-pagination-button:disabled {
+  color: #181a1f;
+}

@@ -1,0 +1,51 @@
+.NftDisplay {
+  background-color: #181a1f;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: calc(10px + 0.8vmin);
+  display: inline;
+  transition: background-color 0.1s, box-shadow 0.1s;
+  user-select: none;
+}
+
+.NftDisplay-body {
+  position: relative;
+}
+
+.NftDisplay.selected {
+  background-color: #2b2e36;
+  box-shadow: 0px 0px 10px #2b2e36;
+}
+
+.NftDisplay-title {
+}
+
+.NftDisplay-image {
+  width: 100px;
+  max-height: 100px;
+  margin: 10px;
+}
+
+.NftDisplay-image-container {
+  width: 100%;
+  min-width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NftDisplay-image-backup {
+  max-width: 100px;
+  font-size: calc(10px + 2.5vmin);
+  width: 100%;
+}
+
+.NftDisplay-details {
+  margin-top: -10px;
+  font-size: calc(10px + 0.5vmin);
+}
